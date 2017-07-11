@@ -1,0 +1,19 @@
+{
+  "name": "alfs-broker",
+  "version": "1.0.0",
+  "description": "This is mqtt broker for Assisted Living Facilities System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Girishchandra Y",
+  "license": "ISC",
+  "dependencies": {
+    "brace-expansion": "^1.1.6",
+    "mosca": "^2.0.2",
+    "process-nextick-args": "^1.0.7",
+    "util-deprecate": "^1.0.2"
+  },
+  "devDependencies": {}
+}
